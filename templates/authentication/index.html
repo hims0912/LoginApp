@@ -23,6 +23,9 @@
         </div>
         {% endfor %}
         <h3>Welcome to Himanshu App</h3>
+        <button type="submit"><a href="/signup">signup</a></button>
+        <button type="submit"><a href="/signin">signin</a></button>
+        <button type="submit"><a href="/signout">signout</a></button>
         {% if user.is_authenticated %}
         <h3>Hello {{ fname }}</h3>
         <h4>You are successfully logged in</h4>
